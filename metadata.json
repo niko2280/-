@@ -1,0 +1,6 @@
+{
+  "name": "Погода Беларуси",
+  "description": "Точный прогноз погоды для Беларуси, радар осадков в реальном времени, таймлайн прекращения дождя, предупреждения и виджет для рабочего стола.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Погода Беларуси</string>
+    <string name="widget_name">Виджет погоды Беларуси</string>
+    <string name="widget_description">Текущая погода и осадки в Беларуси</string>
+</resources>

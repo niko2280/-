@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sun glowing behind cloud -->
+    <path
+        android:pathData="M43,40m-13,0a13,13 0 1,0 26,0a13,13 0 1,0 -26,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="33"
+                android:startY="30"
+                android:endX="53"
+                android:endY="50"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDBA74" />
+                <item android:offset="1.0" android:color="#F59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sun rays -->
+    <path
+        android:pathData="M43,23L43,19 M30,27L27,24 M25,40L21,40 M56,27L59,24"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Main Stylized Cloud -->
+    <path
+        android:pathData="M37,60 h36 a13,13 0 0,0 0,-26 a17,17 0 0,0 -32,-3 a11,11 0 0,0 -4,21 c0,4.4 0,8 0,8 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="32"
+                android:endX="74"
+                android:endY="60"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#E0F2FE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Raindrops -->
+    <path
+        android:pathData="M40,67 C39,70 39,73 41,74 C42.5,75 44,74 44,72 C44,69.5 41,67 40,67 Z"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M52,68 C51,71 51,74 53,75 C54.5,76 56,75 56,73 C56,70.5 53,68 52,68 Z"
+        android:fillColor="#0284C7" />
+    <path
+        android:pathData="M64,67 C63,70 63,73 65,74 C66.5,75 68,74 68,72 C68,69.5 65,67 64,67 Z"
+        android:fillColor="#38BDF8" />
+</vector>
